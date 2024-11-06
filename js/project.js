@@ -5020,7 +5020,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     "HighTideLineURL": "./data/TIDE LINES/HIGH TIDE/DWG/RAIGAD/SHRIVARDHAN/WALAVATI KH.dwg ",
                     "HighTideLineKmlURL": "./data/TIDE LINES/HIGH TIDE/KML/RAIGAD/SHRIVARDHAN/WALAVATI KH.kml ",
                      "LowTideLineURL": "./data/TIDE LINES/LOW TIDE/DWG/RAIGAD/SHRIVARDHAN/WALAVATI KH.dwg ",
-                    "LowTideLineKmlURL": "./data/TIDE LINES/LOW TIDE/KML/RAIGAD/SHRIVARDHAN/WALAVATI KH.kml ",
+                    "LowTideLineKmlURL": "./data/TIDE LINES/LOW TIDE/KML/RAIGAD/SHRIVARDHAN/WALWATI KH.kml ",
                     "SeawallURL": " ./data/SEAWALL/DWG/RAIGAD/SHRIVARDHAN/WALAVATI KH.dwg",
                     "SeawallKmlURL": " ./data/SEAWALL/KML/RAIGAD/SHRIVARDHAN/WALAVATI KH.kml",
                     "HazardLineURL": " ./data/HAZARDS LINE/DWG/RAIGAD/SHRIVARDHAN/WALAVATI KH.dwg",
@@ -8428,7 +8428,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 "Musalmanwadi-2": {
                     "contourURL": " ",
                     "chainageURL": "./data/CHAINAGE/DWG/RATNAGIRI/RATNAGIRI/MUSALMANWADI-2.dwg",
-                    "chainageKmlURL": " ",
+                    "chainageKmlURL": " ./data/CHAINAGE/KML/RATNAGIRI/RATNAGIRI/MUSALMANWADI-2.kml",
                     "ECWURL": " https://www.idrive.com/idrive/sh/sh?k=f6h1h1g7n3",
                     "dsmURL": " ",
                     "dtmURL": " ",
