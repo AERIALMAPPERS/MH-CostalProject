@@ -7,18 +7,21 @@
       <color>FF66CC00</color>
       <width>1</width>
     </LineStyle>
+    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line2">
     <LineStyle>
       <color>FF00FF00</color>
       <width>1</width>
     </LineStyle>
+    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line3">
     <LineStyle>
       <color>FF66CC00</color>
       <width>1</width>
     </LineStyle>
+    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="point1">
     <IconStyle><Icon><href>kml_symbol_no symbol_0.png</href></Icon></IconStyle>
@@ -34,7 +37,7 @@
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
-        <coordinates>73.6728403721,15.7703636935,0</coordinates>
+        <coordinates>73.6736574856,15.7677178849,0</coordinates>
       </Point>
     </Placemark>
   </Folder>

@@ -7,12 +7,14 @@
       <color>FF999900</color>
       <width>1</width>
     </LineStyle>
+    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line2">
     <LineStyle>
       <color>FF00FF00</color>
       <width>1</width>
     </LineStyle>
+    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="point1">
     <IconStyle><Icon><href>kml_symbol_no symbol_0.png</href></Icon></IconStyle>
@@ -168,7 +170,7 @@
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
-        <coordinates>73.4850692643,16.0182823693,0</coordinates>
+        <coordinates>73.4917548405,16.0159199300,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -1043,11 +1045,6 @@
           73.4871658360,16.0279218740,0
           73.4887339890,16.0283834570,0
           73.4894558470,16.0285244880,0
-          73.4892511840,16.0278054490,0
-          73.4895282950,16.0268968060,0
-          73.4898016620,16.0264911850,0
-          73.4898550800,16.0258320790,0
-          73.4902283190,16.0253017580,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -1061,6 +1058,35 @@
         <coordinates>
           73.4902283190,16.0253017580,0
           73.4908686270,16.0250336660,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <description>0</description>
+      <styleUrl>#line2</styleUrl>
+      <LineString>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>
+          73.4892511840,16.0278054490,0
+          73.4895282950,16.0268968060,0
+          73.4898016620,16.0264911850,0
+          73.4898550800,16.0258320790,0
+          73.4902283190,16.0253017580,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <description>village</description>
+      <styleUrl>#line2</styleUrl>
+      <LineString>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>
+          73.4894558470,16.0285244880,0
+          73.4892511840,16.0278054490,0
         </coordinates>
       </LineString>
     </Placemark>

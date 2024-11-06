@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="iso-8859-7"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:globalmapper="https://www.bluemarblegeo.com/globalmapper">
 <Document>
   <!-- Begin Style Definitions -->
@@ -21,11 +21,11 @@
     <LabelStyle><color>ff333333</color></LabelStyle>
   </Style>
   <Folder>
-    <name>MANERI.dwg</name>
-    <description>MANERI.dwg</description>
+    <name>Point Features</name>
+    <description>Point Features</description>
     <Placemark>
-      <description><![CDATA[VILLAGE NAME<BR><BR><B>ELEVATION</B> = 0]]></description>
-      <name>NAVAVALI</name>
+      <description>VILLAGE NAME</description>
+      <name>MANERI</name>
       <styleUrl>#point1</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
@@ -33,36 +33,10 @@
         <coordinates>72.9484773355,18.2759546824,0</coordinates>
       </Point>
     </Placemark>
-    <Placemark>
-      <description>village</description>
-      <styleUrl>#line1</styleUrl>
-      <LineString>
-        <altitudeMode>clampToGround</altitudeMode>
-        <extrude>0</extrude>
-        <tessellate>1</tessellate>
-        <coordinates>
-          72.9608734339,18.2790881390,0
-          72.9608248309,18.2763713590,0
-          72.9600323299,18.2730160800,0
-          72.9587635849,18.2709156160,0
-          72.9582971899,18.2702598190,0
-          72.9572288609,18.2691604050,0
-          72.9554894609,18.2675910200,0
-          72.9513674039,18.2714555830,0
-          72.9489186769,18.2725854580,0
-          72.9485796659,18.2729184240,0
-          72.9478544139,18.2732693010,0
-          72.9469433419,18.2741145520,0
-          72.9457375859,18.2754628590,0
-          72.9439176739,18.2784012450,0
-          72.9423610849,18.2811472200,0
-          72.9414967629,18.2815647000,0
-          72.9408532099,18.2819700620,0
-          72.9404938499,18.2827147310,0
-          72.9400981729,18.2823661900,0
-        </coordinates>
-      </LineString>
-    </Placemark>
+  </Folder>
+  <Folder>
+    <name>Line Features</name>
+    <description>Line Features</description>
     <Placemark>
       <description>village</description>
       <styleUrl>#line1</styleUrl>
@@ -97,7 +71,7 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[0<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>0</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -110,7 +84,7 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <description><![CDATA[HIGH TIDE LINE<BR><BR><B>ELEVATION</B> = 0]]></description>
+      <description>HIGH TIDE LINE</description>
       <styleUrl>#line2</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
@@ -209,6 +183,36 @@
           72.9589596573,18.2822889848,0
           72.9601287149,18.2817897321,0
           72.9605814926,18.2815960589,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <description>village</description>
+      <styleUrl>#line1</styleUrl>
+      <LineString>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>
+          72.9608734339,18.2790881390,0
+          72.9608248309,18.2763713590,0
+          72.9600323299,18.2730160800,0
+          72.9587635849,18.2709156160,0
+          72.9582971899,18.2702598190,0
+          72.9572288609,18.2691604050,0
+          72.9554894609,18.2675910200,0
+          72.9513674039,18.2714555830,0
+          72.9489186769,18.2725854580,0
+          72.9485796659,18.2729184240,0
+          72.9478544139,18.2732693010,0
+          72.9469433419,18.2741145520,0
+          72.9457375859,18.2754628590,0
+          72.9439176739,18.2784012450,0
+          72.9423610849,18.2811472200,0
+          72.9414967629,18.2815647000,0
+          72.9408532099,18.2819700620,0
+          72.9404938499,18.2827147310,0
+          72.9400981729,18.2823661900,0
         </coordinates>
       </LineString>
     </Placemark>

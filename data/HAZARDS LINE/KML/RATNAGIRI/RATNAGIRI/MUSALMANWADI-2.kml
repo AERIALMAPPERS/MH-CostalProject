@@ -11,13 +11,6 @@
   </Style>
   <Style id="line2">
     <LineStyle>
-      <color>FFFFFF00</color>
-      <width>1</width>
-    </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
-  </Style>
-  <Style id="line3">
-    <LineStyle>
       <color>FF0000FF</color>
       <width>1</width>
     </LineStyle>
@@ -66,6 +59,32 @@
       </LineString>
     </Placemark>
     <Placemark>
+      <description>ddddd</description>
+      <styleUrl>#line1</styleUrl>
+      <LineString>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>
+          73.3080990000,16.9674490000,0
+          73.3070350000,16.9673840000,0
+          73.3067410000,16.9691460000,0
+          73.3061400000,16.9710930000,0
+          73.3054340000,16.9726030000,0
+          73.3045010000,16.9742180000,0
+          73.3037990000,16.9755100000,0
+          73.3030960000,16.9769710000,0
+          73.3072010000,16.9772530000,0
+          73.3098510000,16.9769340000,0
+          73.3102480000,16.9768600000,0
+          73.3103240000,16.9764930000,0
+          73.3108090000,16.9761840000,0
+          73.3128490000,16.9755040000,0
+          73.3128490000,16.9755040000,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
       <description>0</description>
       <styleUrl>#line1</styleUrl>
       <LineString>
@@ -79,30 +98,8 @@
       </LineString>
     </Placemark>
     <Placemark>
-      <description>village</description>
-      <styleUrl>#line2</styleUrl>
-      <LineString>
-        <altitudeMode>clampToGround</altitudeMode>
-        <extrude>0</extrude>
-        <tessellate>1</tessellate>
-        <coordinates>
-          73.3128490000,16.9755040000,0
-          73.3134310000,16.9753100000,0
-          73.3119990000,16.9737680000,0
-          73.3117190000,16.9722380000,0
-          73.3119010000,16.9716260000,0
-          73.3118180000,16.9715670000,0
-          73.3111940000,16.9701260000,0
-          73.3108420000,16.9683760000,0
-          73.3104540000,16.9683190000,0
-          73.3097110000,16.9679790000,0
-          73.3081870000,16.9676250000,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
       <description>HAZARDS LINE</description>
-      <styleUrl>#line3</styleUrl>
+      <styleUrl>#line2</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -182,7 +179,7 @@
     </Placemark>
     <Placemark>
       <description>HAZARDS LINE</description>
-      <styleUrl>#line3</styleUrl>
+      <styleUrl>#line2</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -453,7 +450,7 @@
     </Placemark>
     <Placemark>
       <description>HAZARDS LINE</description>
-      <styleUrl>#line3</styleUrl>
+      <styleUrl>#line2</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -481,7 +478,7 @@
     </Placemark>
     <Placemark>
       <description>HAZARDS LINE</description>
-      <styleUrl>#line3</styleUrl>
+      <styleUrl>#line2</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -500,7 +497,7 @@
     </Placemark>
     <Placemark>
       <description>HAZARDS LINE</description>
-      <styleUrl>#line3</styleUrl>
+      <styleUrl>#line2</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -541,7 +538,7 @@
     </Placemark>
     <Placemark>
       <description>HAZARDS LINE</description>
-      <styleUrl>#line3</styleUrl>
+      <styleUrl>#line2</styleUrl>
       <LineString>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -560,58 +557,6 @@
           73.3117070909,16.9720886296,0
           73.3117070052,16.9721250162,0
           73.3117359410,16.9721810337,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <description>ddddd</description>
-      <styleUrl>#line1</styleUrl>
-      <LineString>
-        <altitudeMode>clampToGround</altitudeMode>
-        <extrude>0</extrude>
-        <tessellate>1</tessellate>
-        <coordinates>
-          73.3080990000,16.9674490000,0
-          73.3070350000,16.9673840000,0
-          73.3067410000,16.9691460000,0
-          73.3061400000,16.9710930000,0
-          73.3054340000,16.9726030000,0
-          73.3045010000,16.9742180000,0
-          73.3037990000,16.9755100000,0
-          73.3030960000,16.9769710000,0
-          73.3072010000,16.9772530000,0
-          73.3098510000,16.9769340000,0
-          73.3102480000,16.9768600000,0
-          73.3103240000,16.9764930000,0
-          73.3108090000,16.9761840000,0
-          73.3128490000,16.9755040000,0
-          73.3128490000,16.9755040000,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <description>village</description>
-      <styleUrl>#line2</styleUrl>
-      <LineString>
-        <altitudeMode>clampToGround</altitudeMode>
-        <extrude>0</extrude>
-        <tessellate>1</tessellate>
-        <coordinates>
-          73.3080990000,16.9674490000,0
-          73.3070350000,16.9673840000,0
-          73.3067410000,16.9691460000,0
-          73.3061400000,16.9710930000,0
-          73.3054340000,16.9726030000,0
-          73.3045010000,16.9742180000,0
-          73.3037990000,16.9755100000,0
-          73.3030960000,16.9769710000,0
-          73.3072010000,16.9772530000,0
-          73.3098510000,16.9769340000,0
-          73.3102480000,16.9768600000,0
-          73.3103240000,16.9764930000,0
-          73.3108090000,16.9761840000,0
-          73.3128490000,16.9755040000,0
-          73.3128490000,16.9755040000,0
         </coordinates>
       </LineString>
     </Placemark>
