@@ -7,175 +7,150 @@
       <color>FF000000</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line2">
     <LineStyle>
       <color>FF800000</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line3">
     <LineStyle>
       <color>FFA00000</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line4">
     <LineStyle>
       <color>FFFF0000</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line5">
     <LineStyle>
       <color>FF804000</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line6">
     <LineStyle>
       <color>FF1F7F00</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line7">
     <LineStyle>
       <color>FF808000</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line8">
     <LineStyle>
       <color>FFFF8000</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line9">
     <LineStyle>
       <color>FF009900</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line10">
     <LineStyle>
       <color>FF00FF00</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line11">
     <LineStyle>
       <color>FF7F001F</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line12">
     <LineStyle>
       <color>FF400040</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line13">
     <LineStyle>
       <color>FF800040</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line14">
     <LineStyle>
       <color>FF808040</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line15">
     <LineStyle>
       <color>FF000080</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line16">
     <LineStyle>
       <color>FF400080</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line17">
     <LineStyle>
       <color>FFFF0080</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line18">
     <LineStyle>
       <color>FFFF8080</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line19">
     <LineStyle>
       <color>FFCC00CC</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line20">
     <LineStyle>
       <color>FF0000FF</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line21">
     <LineStyle>
       <color>FF8000FF</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line22">
     <LineStyle>
       <color>FFBF00FF</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line23">
     <LineStyle>
       <color>FFFF00FF</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line24">
     <LineStyle>
       <color>FF0080FF</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line25">
     <LineStyle>
       <color>FF00BFFF</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="point1">
     <IconStyle><Icon><href>kml_symbol_no symbol_0.png</href></Icon></IconStyle>
@@ -293,7 +268,7 @@
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
-        <coordinates>73.2829539134,17.1123969426,0</coordinates>
+        <coordinates>73.2837514887,17.1116149442,0</coordinates>
       </Point>
     </Placemark>
     <Placemark>
@@ -824,6 +799,37 @@
         <extrude>0</extrude>
         <tessellate>1</tessellate>
         <coordinates>
+          73.2861298040,17.1084835220,0
+          73.2857755380,17.1081165590,0
+          73.2846658220,17.1076628650,0
+          73.2830019280,17.1075736370,0
+          73.2825666620,17.1089330010,0
+          73.2831495340,17.1091097830,0
+          73.2830129360,17.1109728070,0
+          73.2831289920,17.1120547530,0
+          73.2838326060,17.1126449940,0
+          73.2844866020,17.1128525800,0
+          73.2859113170,17.1130897540,0
+          73.2870789740,17.1141968980,0
+          73.2876401670,17.1138435500,0
+          73.2881965380,17.1141930940,0
+          73.2885738810,17.1138052650,0
+          73.2887599420,17.1133964340,0
+          73.2889181630,17.1126662680,0
+          73.2889771940,17.1119206790,0
+          73.2909274100,17.1123541120,0
+          73.2910638020,17.1118273590,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <description>village</description>
+      <styleUrl>#line10</styleUrl>
+      <LineString>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>
           73.2859312490,17.1088319360,0
           73.2861298040,17.1084835220,0
         </coordinates>
@@ -1120,37 +1126,6 @@
         <coordinates>
           73.2801419525,17.1082403278,0
           73.2805282332,17.1067499066,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <description>village</description>
-      <styleUrl>#line10</styleUrl>
-      <LineString>
-        <altitudeMode>clampToGround</altitudeMode>
-        <extrude>0</extrude>
-        <tessellate>1</tessellate>
-        <coordinates>
-          73.2861298040,17.1084835220,0
-          73.2857755380,17.1081165590,0
-          73.2846658220,17.1076628650,0
-          73.2830019280,17.1075736370,0
-          73.2825666620,17.1089330010,0
-          73.2831495340,17.1091097830,0
-          73.2830129360,17.1109728070,0
-          73.2831289920,17.1120547530,0
-          73.2838326060,17.1126449940,0
-          73.2844866020,17.1128525800,0
-          73.2859113170,17.1130897540,0
-          73.2870789740,17.1141968980,0
-          73.2876401670,17.1138435500,0
-          73.2881965380,17.1141930940,0
-          73.2885738810,17.1138052650,0
-          73.2887599420,17.1133964340,0
-          73.2889181630,17.1126662680,0
-          73.2889771940,17.1119206790,0
-          73.2909274100,17.1123541120,0
-          73.2910638020,17.1118273590,0
         </coordinates>
       </LineString>
     </Placemark>

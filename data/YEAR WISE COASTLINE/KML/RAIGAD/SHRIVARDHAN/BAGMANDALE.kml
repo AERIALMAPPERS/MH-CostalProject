@@ -7,147 +7,126 @@
       <color>FF000000</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line2">
     <LineStyle>
       <color>FF800000</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line3">
     <LineStyle>
       <color>FFA00000</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line4">
     <LineStyle>
       <color>FFFF0000</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line5">
     <LineStyle>
       <color>FF804000</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line6">
     <LineStyle>
       <color>FF808000</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line7">
     <LineStyle>
       <color>FFFF8000</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line8">
     <LineStyle>
       <color>FF00FF00</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line9">
     <LineStyle>
       <color>FF400040</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line10">
     <LineStyle>
       <color>FF800040</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line11">
     <LineStyle>
       <color>FF808040</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line12">
     <LineStyle>
       <color>FF000080</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line13">
     <LineStyle>
       <color>FF400080</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line14">
     <LineStyle>
       <color>FFFF0080</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line15">
     <LineStyle>
       <color>FF408080</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line16">
     <LineStyle>
       <color>FFFF8080</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line17">
     <LineStyle>
       <color>FFFFFF80</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line18">
     <LineStyle>
       <color>FF0000FF</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line19">
     <LineStyle>
       <color>FF8000FF</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line20">
     <LineStyle>
       <color>FFFF00FF</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="line21">
     <LineStyle>
       <color>FF0080FF</color>
       <width>1</width>
     </LineStyle>
-    <IconStyle><Icon></Icon></IconStyle>
   </Style>
   <Style id="point1">
     <IconStyle><Icon><href>kml_symbol_no symbol_0.png</href></Icon></IconStyle>
@@ -267,12 +246,6 @@
   <Style id="point39">
     <IconStyle><Icon><href>kml_symbol_no symbol_0.png</href></Icon></IconStyle>
   </Style>
-  <Style id="point40">
-    <IconStyle><Icon><href>kml_symbol_no symbol_0.png</href></Icon></IconStyle>
-  </Style>
-  <Style id="point41">
-    <IconStyle><Icon><href>kml_symbol_no symbol_0.png</href></Icon></IconStyle>
-  </Style>
   <Folder>
     <name>Point Features</name>
     <description>Point Features</description>
@@ -288,18 +261,8 @@
     </Placemark>
     <Placemark>
       <description>0</description>
-      <name>2000</name>
-      <styleUrl>#point2</styleUrl>
-      <Point>
-        <altitudeMode>clampToGround</altitudeMode>
-        <extrude>0</extrude>
-        <coordinates>73.0671110390,17.9814783235,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <description>0</description>
       <name>2006</name>
-      <styleUrl>#point3</styleUrl>
+      <styleUrl>#point2</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -309,7 +272,7 @@
     <Placemark>
       <description>0</description>
       <name>2015</name>
-      <styleUrl>#point4</styleUrl>
+      <styleUrl>#point3</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -319,7 +282,7 @@
     <Placemark>
       <description>0</description>
       <name>2013</name>
-      <styleUrl>#point5</styleUrl>
+      <styleUrl>#point4</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -329,7 +292,7 @@
     <Placemark>
       <description>0</description>
       <name>2017</name>
-      <styleUrl>#point6</styleUrl>
+      <styleUrl>#point5</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -339,7 +302,7 @@
     <Placemark>
       <description>0</description>
       <name>2012</name>
-      <styleUrl>#point7</styleUrl>
+      <styleUrl>#point6</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -349,7 +312,7 @@
     <Placemark>
       <description>0</description>
       <name>2018</name>
-      <styleUrl>#point8</styleUrl>
+      <styleUrl>#point7</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -359,7 +322,7 @@
     <Placemark>
       <description>0</description>
       <name>2014</name>
-      <styleUrl>#point9</styleUrl>
+      <styleUrl>#point8</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -369,7 +332,7 @@
     <Placemark>
       <description>0</description>
       <name>2019</name>
-      <styleUrl>#point10</styleUrl>
+      <styleUrl>#point9</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -379,7 +342,7 @@
     <Placemark>
       <description>0</description>
       <name>2020</name>
-      <styleUrl>#point11</styleUrl>
+      <styleUrl>#point10</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -389,7 +352,7 @@
     <Placemark>
       <description>0</description>
       <name>2021</name>
-      <styleUrl>#point12</styleUrl>
+      <styleUrl>#point11</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -399,7 +362,7 @@
     <Placemark>
       <description>0</description>
       <name>2022</name>
-      <styleUrl>#point13</styleUrl>
+      <styleUrl>#point12</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -408,18 +371,8 @@
     </Placemark>
     <Placemark>
       <description>0</description>
-      <name>2000</name>
-      <styleUrl>#point14</styleUrl>
-      <Point>
-        <altitudeMode>clampToGround</altitudeMode>
-        <extrude>0</extrude>
-        <coordinates>73.0513979973,17.9842894977,0</coordinates>
-      </Point>
-    </Placemark>
-    <Placemark>
-      <description>0</description>
       <name>2008</name>
-      <styleUrl>#point15</styleUrl>
+      <styleUrl>#point13</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -429,7 +382,7 @@
     <Placemark>
       <description>0</description>
       <name>2011</name>
-      <styleUrl>#point16</styleUrl>
+      <styleUrl>#point14</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -439,7 +392,7 @@
     <Placemark>
       <description>0</description>
       <name>2010</name>
-      <styleUrl>#point17</styleUrl>
+      <styleUrl>#point15</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -449,7 +402,7 @@
     <Placemark>
       <description>0</description>
       <name>2007</name>
-      <styleUrl>#point18</styleUrl>
+      <styleUrl>#point16</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -459,7 +412,7 @@
     <Placemark>
       <description>0</description>
       <name>2009</name>
-      <styleUrl>#point19</styleUrl>
+      <styleUrl>#point17</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -469,7 +422,7 @@
     <Placemark>
       <description>0</description>
       <name>2010</name>
-      <styleUrl>#point20</styleUrl>
+      <styleUrl>#point18</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -479,7 +432,7 @@
     <Placemark>
       <description>0</description>
       <name>2004</name>
-      <styleUrl>#point21</styleUrl>
+      <styleUrl>#point19</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -489,7 +442,7 @@
     <Placemark>
       <description>0</description>
       <name>2005</name>
-      <styleUrl>#point22</styleUrl>
+      <styleUrl>#point20</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -499,7 +452,7 @@
     <Placemark>
       <description>0</description>
       <name>2001</name>
-      <styleUrl>#point23</styleUrl>
+      <styleUrl>#point21</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -509,7 +462,7 @@
     <Placemark>
       <description>0</description>
       <name>1998</name>
-      <styleUrl>#point24</styleUrl>
+      <styleUrl>#point22</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -519,7 +472,7 @@
     <Placemark>
       <description>0</description>
       <name>2007</name>
-      <styleUrl>#point25</styleUrl>
+      <styleUrl>#point23</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -529,7 +482,7 @@
     <Placemark>
       <description>0</description>
       <name>1991</name>
-      <styleUrl>#point26</styleUrl>
+      <styleUrl>#point24</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -539,7 +492,7 @@
     <Placemark>
       <description>0</description>
       <name>1999</name>
-      <styleUrl>#point27</styleUrl>
+      <styleUrl>#point25</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -549,7 +502,7 @@
     <Placemark>
       <description>0</description>
       <name>2003</name>
-      <styleUrl>#point28</styleUrl>
+      <styleUrl>#point26</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -559,7 +512,7 @@
     <Placemark>
       <description>0</description>
       <name>2002</name>
-      <styleUrl>#point29</styleUrl>
+      <styleUrl>#point27</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -569,7 +522,7 @@
     <Placemark>
       <description>0</description>
       <name>1996</name>
-      <styleUrl>#point30</styleUrl>
+      <styleUrl>#point28</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -579,7 +532,7 @@
     <Placemark>
       <description>0</description>
       <name>2000</name>
-      <styleUrl>#point31</styleUrl>
+      <styleUrl>#point29</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -589,7 +542,7 @@
     <Placemark>
       <description>0</description>
       <name>1995</name>
-      <styleUrl>#point32</styleUrl>
+      <styleUrl>#point30</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -599,7 +552,7 @@
     <Placemark>
       <description>0</description>
       <name>1993</name>
-      <styleUrl>#point33</styleUrl>
+      <styleUrl>#point31</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -609,7 +562,7 @@
     <Placemark>
       <description>0</description>
       <name>1994</name>
-      <styleUrl>#point34</styleUrl>
+      <styleUrl>#point32</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -619,7 +572,7 @@
     <Placemark>
       <description>0</description>
       <name>1997</name>
-      <styleUrl>#point35</styleUrl>
+      <styleUrl>#point33</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -629,7 +582,7 @@
     <Placemark>
       <description>0</description>
       <name>1990</name>
-      <styleUrl>#point36</styleUrl>
+      <styleUrl>#point34</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -639,7 +592,7 @@
     <Placemark>
       <description>0</description>
       <name>1992</name>
-      <styleUrl>#point37</styleUrl>
+      <styleUrl>#point35</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -649,7 +602,7 @@
     <Placemark>
       <description>0</description>
       <name>2016</name>
-      <styleUrl>#point38</styleUrl>
+      <styleUrl>#point36</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -659,7 +612,7 @@
     <Placemark>
       <description>0</description>
       <name>2010</name>
-      <styleUrl>#point39</styleUrl>
+      <styleUrl>#point37</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -669,7 +622,7 @@
     <Placemark>
       <description>0</description>
       <name>2007</name>
-      <styleUrl>#point40</styleUrl>
+      <styleUrl>#point38</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -679,7 +632,7 @@
     <Placemark>
       <description>0</description>
       <name>2023</name>
-      <styleUrl>#point41</styleUrl>
+      <styleUrl>#point39</styleUrl>
       <Point>
         <altitudeMode>clampToGround</altitudeMode>
         <extrude>0</extrude>
@@ -1251,6 +1204,63 @@
           73.0489169999,18.0161050000,0
           73.0489609999,18.0158880000,0
           73.0507139999,18.0159070000,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <description>village</description>
+      <styleUrl>#line8</styleUrl>
+      <LineString>
+        <altitudeMode>clampToGround</altitudeMode>
+        <extrude>0</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>
+          73.0539809999,18.0145060000,0
+          73.0543239999,18.0138290000,0
+          73.0547679999,18.0117620000,0
+          73.0555449999,18.0104080000,0
+          73.0564259999,18.0093110000,0
+          73.0578069999,18.0072420000,0
+          73.0581869999,18.0062560000,0
+          73.0590539999,18.0049640000,0
+          73.0598159999,18.0033470000,0
+          73.0599199999,18.0027600000,0
+          73.0597819999,18.0019390000,0
+          73.0588619999,17.9991610000,0
+          73.0596519999,17.9969560000,0
+          73.0599929999,17.9950490000,0
+          73.0601729999,17.9932050000,0
+          73.0603679999,17.9925300000,0
+          73.0614919999,17.9881410000,0
+          73.0607999999,17.9881080000,0
+          73.0590599999,17.9880260000,0
+          73.0526289999,17.9870130000,0
+          73.0504039999,17.9863970000,0
+          73.0493479999,17.9861040000,0
+          73.0487769999,17.9860770000,0
+          73.0471199999,17.9908500000,0
+          73.0462049999,17.9921610000,0
+          73.0455449999,17.9929260000,0
+          73.0452909999,17.9952060000,0
+          73.0455459999,17.9970070000,0
+          73.0455589999,17.9981250000,0
+          73.0453009999,18.0006270000,0
+          73.0451779999,18.0012070000,0
+          73.0449129999,18.0012800000,0
+          73.0448939999,18.0031550000,0
+          73.0456029999,18.0038650000,0
+          73.0454979999,18.0051690000,0
+          73.0456619999,18.0068720000,0
+          73.0458089999,18.0075610000,0
+          73.0461179999,18.0096700000,0
+          73.0463519999,18.0109510000,0
+          73.0460449999,18.0120510000,0
+          73.0457649999,18.0123200000,0
+          73.0459019999,18.0126410000,0
+          73.0454589999,18.0151800000,0
+          73.0464789999,18.0161130000,0
+          73.0468589999,18.0164650000,0
+          73.0468589999,18.0164650000,0
         </coordinates>
       </LineString>
     </Placemark>
@@ -2486,63 +2496,6 @@
           73.0441215873,17.9888850969,0
           73.0503383011,17.9913685916,0
           73.0526173047,17.9872463668,0
-        </coordinates>
-      </LineString>
-    </Placemark>
-    <Placemark>
-      <description>village</description>
-      <styleUrl>#line8</styleUrl>
-      <LineString>
-        <altitudeMode>clampToGround</altitudeMode>
-        <extrude>0</extrude>
-        <tessellate>1</tessellate>
-        <coordinates>
-          73.0539809999,18.0145060000,0
-          73.0543239999,18.0138290000,0
-          73.0547679999,18.0117620000,0
-          73.0555449999,18.0104080000,0
-          73.0564259999,18.0093110000,0
-          73.0578069999,18.0072420000,0
-          73.0581869999,18.0062560000,0
-          73.0590539999,18.0049640000,0
-          73.0598159999,18.0033470000,0
-          73.0599199999,18.0027600000,0
-          73.0597819999,18.0019390000,0
-          73.0588619999,17.9991610000,0
-          73.0596519999,17.9969560000,0
-          73.0599929999,17.9950490000,0
-          73.0601729999,17.9932050000,0
-          73.0603679999,17.9925300000,0
-          73.0614919999,17.9881410000,0
-          73.0607999999,17.9881080000,0
-          73.0590599999,17.9880260000,0
-          73.0526289999,17.9870130000,0
-          73.0504039999,17.9863970000,0
-          73.0493479999,17.9861040000,0
-          73.0487769999,17.9860770000,0
-          73.0471199999,17.9908500000,0
-          73.0462049999,17.9921610000,0
-          73.0455449999,17.9929260000,0
-          73.0452909999,17.9952060000,0
-          73.0455459999,17.9970070000,0
-          73.0455589999,17.9981250000,0
-          73.0453009999,18.0006270000,0
-          73.0451779999,18.0012070000,0
-          73.0449129999,18.0012800000,0
-          73.0448939999,18.0031550000,0
-          73.0456029999,18.0038650000,0
-          73.0454979999,18.0051690000,0
-          73.0456619999,18.0068720000,0
-          73.0458089999,18.0075610000,0
-          73.0461179999,18.0096700000,0
-          73.0463519999,18.0109510000,0
-          73.0460449999,18.0120510000,0
-          73.0457649999,18.0123200000,0
-          73.0459019999,18.0126410000,0
-          73.0454589999,18.0151800000,0
-          73.0464789999,18.0161130000,0
-          73.0468589999,18.0164650000,0
-          73.0468589999,18.0164650000,0
         </coordinates>
       </LineString>
     </Placemark>
