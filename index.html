@@ -13,22 +13,22 @@
    <!-- live date and zoom in zoom out buton -->
    <div id="zoomButtons">
     <div class="content">
-      <button onclick="zoomOut()">A-</button>
-      <button onclick="resetZoom()">A</button>
-      <button onclick="zoomIn()">A+</button>
+      <button aria-label="Decrease text size"  onclick="zoomOut()">A-</button>
+      <button aria-label="Reset text size" onclick="resetZoom()">A</button>
+      <button aria-label="Increase text size" onclick="zoomIn()">A+</button>
       |
       <span id="liveDate"></span>
     </div>
-    <div id="google_translate_element"></div>
+    <div id="google_translate_element" aria-label="Language Translate Widget"></div>
   </div>
 
     <!-- HEADING -->
     <header>
         <div class="header">
             <!-- <img src="./image/index/logo.jpg" alt=""> -->
-           <img src="./image/logo/satyamev-jayate.jpg" alt="">
+           <img src="./image/logo/satyamev-jayate.jpg" alt="gov logo">
             <h1>Maharashtra <br>Coastline</h1>
-            <img src="./image/logo/coastl.png" alt="" id="coastal-logo">
+            <img src="./image/logo/coastl.png" alt="coastal img" id="coastal-logo">
            
         </div>
     </header>
@@ -47,7 +47,7 @@
 <!-- <br> -->
 
 <div class="marquee-container">
-    <div class="marquee">
+    <div class="marquee" aria-live="polite">
     Government of Maharashtra | Maharashtra Coastline Project 2023-2024 | Develop a web-based system to search, view, and
     download geo-referenced village digital maps ,CRZ maps, ECW of coastal areas,DEM , CONTOUR , DGPS & other details of 
     villages in the coastline area of Maharashtra .
@@ -58,19 +58,19 @@
     <div class="banner">
 
         <div class="mySlides">
-            <img src="./image/banner/Banner1.png" alt="Image 1">
+            <img src="./image/banner/Banner1.png" alt="slide img">
         </div>
         <div class="mySlides">
-            <img src="./image/banner/Banner2.jpg" alt="Image 2" id="img2">
+            <img src="./image/banner/Banner2.jpg" alt=" slide img2" id="img2">
         </div>
         <div class="mySlides">
-            <img src="./image/banner/Banner3.png" alt="Image 1">
+            <img src="./image/banner/Banner3.png" alt="slide img3">
         </div>
         <div class="mySlides">
-            <img src="./image/banner/Banner4.jpg" alt="Image 2" id="img3">
+            <img src="./image/banner/Banner4.jpg" alt="slide img 4" id="img3">
         </div>
         <div class="mySlides">
-            <img src="./image/banner/Banner5.png" alt="Image 2" id="img4">
+            <img src="./image/banner/Banner5.png" alt="slide img 5" id="img4">
         </div>
         <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a> -->
         <!-- <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
@@ -107,38 +107,38 @@
         <div class="end">
             <div class="box">
                 <div class="campus">
-                    <img src="./image/service/Drone1.jpg" alt="" id="img1-1">
-                    <div class="layer">
+                    <img src="./image/service/Drone1.jpg" alt=" Drone img" id="img1-1">
+                    <div class="layer"  aria-label="Drone Service">
                         <h3> Drone</h3>
                     </div>
                 </div>
                 <div class="campus">
-                    <img src="./image/service/drone2.jpg" alt="" id="img1-2">
-                    <div class="layer">
+                    <img src="./image/service/drone2.jpg" alt=" Drone img 1" id="img1-2">
+                    <div class="layer"  aria-label="Drone Service" >
                         <h3> Drone</h3>
                     </div>
                 </div>
                 <div class="campus">
-                    <img src="./image/service/GIS.jpg" alt="" id="img2-1">
-                    <div class="layer">
+                    <img src="./image/service/GIS.jpg" alt=" Gis img" id="img2-1">
+                    <div class="layer"  aria-label="Gis Service">
                         <h3>Gis</h3>
                     </div>
                 </div>
                 <div class="campus">
-                    <img src="./image/service/GIS1.png " alt="" id="img2-2">
-                    <div class="layer">
+                    <img src="./image/service/GIS1.png " alt=" Gis img 2" id="img2-2">
+                    <div class="layer"  aria-label="Drone Service">
                         <h3>Gis</h3>
                     </div>
                 </div>
                 <div class="campus">
-                    <img src="./image/service/DSM.jpg" alt="" id="img3-1">
-                    <div class="layer">
+                    <img src="./image/service/DSM.jpg" alt=" Dsm and Dtm img" id="img3-1">
+                    <div class="layer"  aria-label="Dsm and Dtm Service">
                         <h3>DSM & DTM</h3>
                     </div>
                 </div>
                 <div class="campus">
-                    <img src="./image/service/3-D.png" alt="" id="img4-1">
-                    <div class="layer">
+                    <img src="./image/service/3-D.png" alt=" 3d Model img" id="img4-1">
+                    <div class="layer"  aria-label="3-D model Service">
                         <h3>3-D Model</h3>
                     </div>
                 </div>
@@ -146,7 +146,7 @@
             </div>
         </div>
         <div class="box_btn">
-            <button id="load-more" onclick="showService()">LOAD MORE</button>
+            <button id="load-more"  aria-label="Load more services" onclick="showService()">LOAD MORE</button>
         </div>
     
     </div>
@@ -233,7 +233,7 @@
             <!-- </div> -->
             <div class="right_image">
                 <!-- <img src="../img/mapMaharashtraB.jpg" alt=""> -->
-                <img src="./img/mapMaharashtraB.jpg" alt="">
+                <img src="./img/mapMaharashtraB.jpg" alt=" map of mh">
             </div>
         </div>
     </div>
@@ -250,7 +250,7 @@
         <div class="inner-div">
             
             <div class="inner-img">
-                <img src="./image/steps/Methodology.png" alt="">
+                <img src="./image/steps/Methodology.png" alt=" Methodology of service">
             </div>
             <div class="inner-step">
 
@@ -275,7 +275,7 @@
     
                 <div class="innerBox2">
                     <h3 id="heading3-1">Step : III</h3>
-                    <img width="100" height="100" src="https://img.icons8.com/nolan/64/drone.png" alt="drone" id="img-i3" >
+                    <img width="100" height="100" src="https://img.icons8.com/nolan/64/drone.png" alt="drone img " id="img-i3" >
                     <br>
                     <h5>Drone lidar survey.(collect elevation information)</h5>
                     <br>
@@ -411,7 +411,7 @@
                         4.See the large-scale data.
                     </p>
                     <br>
-                    <img src="./image/steps/step1.png" alt="">
+                    <img src="./image/steps/step1.png" alt=" google-earth img ">
                     <!-- <img src="./img/step1.png" alt="" /> -->
                     <br>
                     <p id="p-1.1">REDLINE SHOW THE COASTLINE.</p>
@@ -433,10 +433,10 @@
                         verification. <br>
                     </p>
                     <br>
-                    <img src="./image/steps/step2.png" alt="" ><br>
+                    <img src="./image/steps/step2.png" alt=" Benchmark survey img" ><br>
                     <p id="p-1.2">BENCHMARK FOR DRONE SURVEY.</p>
                     <br>
-                    <img src="./image/steps/step2-2.png" alt="" >
+                    <img src="./image/steps/step2-2.png" alt=" DGPS survey img" >
                     <p id="p-1.3">DGPS</p>
                     <br>
                     <p><button onclick="hide2()" class="close1">Close</button></p>
@@ -472,7 +472,7 @@
                         buildings, roads, and trees. <br>
                     </p>
                     <br>
-                    <img src="./image/steps/step3.png" alt="" >
+                    <img src="./image/steps/step3.png" alt=" Drone Flying img" >
                     <p id="p-1.4">FLYING DRONE</p>
                     <br>
                     <p><button onclick="hide3()" class="close1">Close</button></p>
@@ -493,7 +493,7 @@
                         Model) and DSM (Digital Surface Model). <br>
                     </p>
                     <br>
-                    <img src="./image/steps/step4.png" alt="" ><br>
+                    <img src="./image/steps/step4.png" alt=" Drone survey output img" ><br>
                     <p id="p-1.5">DRONE SURVEY OUTPUT .</p>
                     <br>
                     <p><button onclick="hide4()" class="close1">Close</button></p>
@@ -527,7 +527,7 @@
                         database. <br><br>
                     </p>
                     <br>
-                    <img src="./image/steps/step5.png" alt="" ><br>
+                    <img src="./image/steps/step5.png" alt=" geo Refernced Village map img" ><br>
                     <p id="p-1.6">GEO-REFERENCED VILLAGE MAP.</p>
                     <br>
                     <p><button onclick="hide5()" class="close1">Close</button></p>
@@ -553,7 +553,7 @@
                         area or hazards area. <br>
                     </p>
                     <br>
-                    <img src="./image/steps/step6.png" alt="" ><br>
+                    <img src="./image/steps/step6.png" alt=" Coastline Region img" ><br>
                     <p id="p-1.7">COASTLINE REGION.</p>
                     <br>
                     <p><button onclick="hide6()" class="close1">Close</button></p>
@@ -576,10 +576,10 @@
                         with respect to the drone image. <br>
                     </p>
                     <br>
-                    <img src="./image/steps/step7-1.png" alt="" ><br>
+                    <img src="./image/steps/step7-1.png" alt=" Google Earth map img" ><br>
                     <p id="p-1.8">GOOGLE EARTH MAP.</p>
                     <br>
-                    <img src="./image/steps/step7-2.png" alt="" ><br>
+                    <img src="./image/steps/step7-2.png" alt=" Drone survey img" ><br>
                     <p id="p-1.9">DRONE IMAGE.</p>
                     <br>
                     <p><button onclick="hide7()" class="close1">Close</button></p>
@@ -603,7 +603,7 @@
                         2.Chainage can fix the reference for the coastline.
                     </p>
                     <br>
-                    <img src="./image/steps/step8.png" alt="" ><br><br>
+                    <img src="./image/steps/step8.png" alt=" Chainge of coastline img" ><br><br>
                     <p id="p-1.10">CHAINAGE IN COASTLINE.</p>
                     <br>
                     <p><button onclick="hide8()" class="close1">Close</button></p>
@@ -623,7 +623,7 @@
                         3.Find the change of shoreline rate in future. <br>
                     </p>
                     <br>
-                    <img src="./image/steps/step9.png" alt="" id="img9" >
+                    <img src="./image/steps/step9.png" alt=" kilometer stone img" id="img9" >
                     <p id="p-1.11">KILOMETER STONE.</p>
                     <br>
                     <p><button onclick="hide9()" class="close1">Close</button></p>
@@ -645,8 +645,8 @@
                         2.Using historical data we can find changes in shoreline rate.
                     </p>
                     <br>
-                    <img src="./image/steps/step-10.1.jpg" alt="" ><br>
-                    <img src="./image/steps/step-10.2.png" alt="" ><br>
+                    <img src="./image/steps/step-10.1.jpg" alt=" Map img " ><br>
+                    <img src="./image/steps/step-10.2.png" alt=" Map img " ><br>
                     <p id="p-1.12">
                         THERE ARE TWO MAPS ONE IS 2000 AND OTHER IS 2021 COMPARISON
                         BETWEEN THE TWO MAPS THERE ARE CHANGES IN THE SHORELINE.
@@ -690,7 +690,7 @@
                         Hazard risks, over at least 100 years.
                     </p>
                     <br>
-                    <img src="./image/steps/step12.png" alt="" ><br>
+                    <img src="./image/steps/step12.png" alt=" Hazards line of Coastal environment" ><br>
                     <p id="p-1.13">IDENTIFY HAZARDS IN THE COASTAL ENVIRONMENT.</p>
                     <br>
                     <p><button onclick="hide12()" class="close1">Close</button></p>
@@ -714,7 +714,7 @@
                         <br>
                     </p>
                     <br>
-                    <img src="./image/steps/home.png" alt="">
+                    <img src="./image/steps/home.png" alt=" Website home page img">
                     <p id="p-1.14">WEBSITE HOME PAGE</p>
                     <br>
                     <p><button onclick="hide13()" class="close1">Close</button></p>
@@ -778,18 +778,18 @@
     <div class="govt-img">
         <br>
         <div class="img-div">
-            <img src="./image/Govt-Img/p1.jpg" alt="" onclick="digitalIndia()">
-            <img src="./image/Govt-Img/p2.png" alt=""  onclick="Mudra()">
-            <img src="./image/Govt-Img/p3.webp" alt=""  onclick="swatchBharat()">
-            <img src="./image/Govt-Img/p4.png" alt=""  onclick="skillIndia()">
-            <img src="./image/Govt-Img/p5.jpg" alt=""  onclick="g2O()">
-            <img src="./image/Govt-Img/p6.jpg" alt=""  onclick="myGov()">
-            <img src="./image/Govt-Img/p7.png" alt=""  onclick="aadhar()">
-            <img src="./image/Govt-Img/p8.png" alt=""  onclick="govtOfIndia()">
-            <img src="./image/Govt-Img/p9.jpg" alt="" onclick="lokpal()">
-            <img src="./image/Govt-Img/p10.png" alt=""  onclick="worldFoodIndia()">
-            <img src="./image/Govt-Img/p11.png" alt=""  onclick="IndianPost()">
-            <img src="./image/Govt-Img/p12.png" alt=""  onclick="myGov()">
+            <img src="./image/Govt-Img/p1.jpg" alt=" Gov Imges of digital india" onclick="digitalIndia()">
+            <img src="./image/Govt-Img/p2.png" alt=" gov img of mudra"  onclick="Mudra()">
+            <img src="./image/Govt-Img/p3.webp" alt="gov img of swatch bharat"  onclick="swatchBharat()">
+            <img src="./image/Govt-Img/p4.png" alt="Gov img of Skill india"  onclick="skillIndia()">
+            <img src="./image/Govt-Img/p5.jpg" alt="Gov img of g20"  onclick="g2O()">
+            <img src="./image/Govt-Img/p6.jpg" alt="mygoverment img"  onclick="myGov()">
+            <img src="./image/Govt-Img/p7.png" alt="gov adhar img"  onclick="aadhar()">
+            <img src="./image/Govt-Img/p8.png" alt="gov of indiaa img"  onclick="govtOfIndia()">
+            <img src="./image/Govt-Img/p9.jpg" alt="gov of lokpal img" onclick="lokpal()">
+            <img src="./image/Govt-Img/p10.png" alt="gov of worldFoodIndia img"  onclick="worldFoodIndia()">
+            <img src="./image/Govt-Img/p11.png" alt="indian posr img"  onclick="IndianPost()">
+            <img src="./image/Govt-Img/p12.png" alt="my gov img"  onclick="myGov()">
         </div>
     </div>
     <br>
@@ -857,14 +857,14 @@
         <div class="footer_img">
             <div class="marquee-container">
                 <div class="marquee-1">
-                <img src="./image/footer/p1.jpg" alt="">
-                <img src="./image/footer/p2.png" alt="">
-                <img src="./image/footer/p3.webp" alt="">
-                <img src="./image/footer/p4.png" alt="">
-                <img src="./image/footer/p5.jpg" alt="">
-                <img src="./image/footer/p6.png" alt="">
-                <img src="./image/footer/p7.png" alt="">
-                <img src="./image/footer/p8.jpg" alt="">
+                <img src="./image/footer/p1.jpg" alt="footer img of gov">
+                <img src="./image/footer/p2.png" alt="footer img of gov">
+                <img src="./image/footer/p3.webp" alt="footer img of gov">
+                <img src="./image/footer/p4.png" alt="footer img of gov">
+                <img src="./image/footer/p5.jpg" alt="footer img of gov">
+                <img src="./image/footer/p6.png" alt="footer img of gov">
+                <img src="./image/footer/p7.png" alt="footer img of gov">
+                <img src="./image/footer/p8.jpg" alt="footer img of gov">
         </div>
         </div>
         </div> 
