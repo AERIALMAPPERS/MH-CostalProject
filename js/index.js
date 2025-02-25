@@ -56,7 +56,11 @@ function showSlides(n) {
  setInterval(function () {
     plusSlides(1);
   }, 3000);
-  
+  //about
+  function showAbout(){
+    window.location.href='./about.html';
+  }
+
   
   // services
   function showService(){
@@ -67,200 +71,142 @@ function showSlides(n) {
  function showFeatures(){
   window.location.href='./features.html';
 }
- 
-//Steps
-// function showStep(){
-//   window.location.href='./steps.html';
-// }
+ /////////////////////////////////////////////region////////////////////////////////////////////////////
 
-// govt logo link
 
-function digitalIndia() {
-    window.location.href = 'https://csc.gov.in/digitalIndia';
-}
-function Mudra() {
-    window.location.href = 'https://www.mudra.org.in/';
-}
-function swatchBharat() {
-    window.location.href = 'https://swachhbharatmission.gov.in/sbmcms/index.htm';
-}
-function skillIndia() {
-    window.location.href = 'https://www.skillindiadigital.gov.in/home';
-}
-function g2O() {
-    window.location.href = 'https://g20.mygov.in/';
-}
-function myGov() {
-    window.location.href = 'https://g20.mygov.in/';
-}
-function aadhar() {
-    window.location.href = 'https://uidai.gov.in/en/';
-}
-function govtOfIndia() {
-    window.location.href = 'https://www.india.gov.in/';
-}
-function lokpal() {
-    window.location.href = 'https://www.lokpal.gov.in/#:~:text=Acting%20Chairperson%2C%20Lokpal&text=The%20Act%20came%20into%20force,from%2028th%20May%2C2022.';
-}
-function worldFoodIndia() {
-    window.location.href = 'https://worldfoodindia.gov.in/';
-}
-function IndianPost() {
-    window.location.href = 'https://www.indiapost.gov.in/vas/Pages/IndiaPostHome.aspx';
+ function displayImageAndHighlight(imageUrl, area) {
+  displayImage(imageUrl);
+  highlightArea(area);
 }
 
-// read more for step
-// step1
-function showStep1() {
-  document.getElementById("overlay-s1").style.display = "block";
-  document.getElementById("popupContainer-s1").style.display = "block";
-}
-function hide1() {
-  document.getElementById("overlay-s1").style.display = "none";
-  document.getElementById("popupContainer-s1").style.display = "none";
+function displayImage(imageUrl) {
+  var displayedImage = document.getElementById("displayedImage");
+  displayedImage.src = imageUrl;
+  displayedImage.style.display = "block";
 }
 
-//step2
-function showStep2() {
-  document.getElementById("overlay-s2").style.display = "block";
-  document.getElementById("popupContainer-s2").style.display = "block";
-}
-function hide2() {
-  document.getElementById("overlay-s2").style.display = "none";
-  document.getElementById("popupContainer-s2").style.display = "none";
+function highlightArea(area) {
+  var displayedImage = document.getElementById("displayedImage");
+  var imageWidth = displayedImage.width;
+  var imageHeight = displayedImage.height;
+
+  var canvas = document.createElement("canvas");
+  canvas.width = imageWidth;
+  canvas.height = imageHeight;
+  var ctx = canvas.getContext("2d");
+
+  displayedImage.onload = function() {
+      ctx.drawImage(displayedImage, 0, 0, imageWidth, imageHeight);
+      if (area === 'district1') {
+          // Define coordinates for district 1 boundary
+          // Example coordinates: x1, y1, x2, y2, ...
+          var coords = [100, 100, 200, 200, 300, 150]; // Update with actual coordinates
+          drawPolygon(ctx, coords);
+      } else if (area === 'district2') {
+          // Define coordinates for district 2 boundary
+          var coords = [150, 250, 250, 350, 200, 400]; // Update with actual coordinates
+          drawPolygon(ctx, coords);
+      }
+      // Add more conditions for other districts if needed
+      displayedImage.src = canvas.toDataURL();
+  };
 }
 
-// step3
-function showStep3() {
-  document.getElementById("overlay-s3").style.display = "block";
-  document.getElementById("popupContainer-s3").style.display = "block";
-}
-function hide3() {
-  document.getElementById("overlay-s3").style.display = "none";
-  document.getElementById("popupContainer-s3").style.display = "none";
-}
-
-//step4
-function showStep4(){
-  document.getElementById("overlay-s4").style.display = "block";
-  document.getElementById("popupContainer-s4").style.display = "block";
-}
-function hide4() {
-  document.getElementById("overlay-s4").style.display = "none";
-  document.getElementById("popupContainer-s4").style.display = "none";
-}
-
-// step5
-function showStep5(){
-  document.getElementById("overlay-s5").style.display = "block";
-  document.getElementById("popupContainer-s5").style.display = "block";
-}
-function hide5() {
-  document.getElementById("overlay-s5").style.display = "none";
-  document.getElementById("popupContainer-s5").style.display = "none";
-}
-
-//step6
-function showStep6() {
-  document.getElementById("overlay-s6").style.display = "block";
-  document.getElementById("popupContainer-s6").style.display = "block";
-}
-function hide6() {
-  document.getElementById("overlay-s6").style.display = "none";
-  document.getElementById("popupContainer-s6").style.display = "none";
-}
-
-// step7
-function showStep7() {
-  document.getElementById("overlay-s7").style.display = "block";
-  document.getElementById("popupContainer-s7").style.display = "block";
-}
-function hide7() {
-  document.getElementById("overlay-s7").style.display = "none";
-  document.getElementById("popupContainer-s7").style.display = "none";
-}
-
-//step8
-function showStep8(){
-  document.getElementById("overlay-s8").style.display = "block";
-  document.getElementById("popupContainer-s8").style.display = "block";
-}
-function hide8() {
-  document.getElementById("overlay-s8").style.display = "none";
-  document.getElementById("popupContainer-s8").style.display = "none";
-}
-
-//step 9
-function showStep9() {
-  document.getElementById("overlay-s9").style.display = "block";
-  document.getElementById("popupContainer-s9").style.display = "block";
-}
-function hide9() {
-  document.getElementById("overlay-s9").style.display = "none";
-  document.getElementById("popupContainer-s9").style.display = "none";
-}
-
-//step 10
-function showStep10() {
-  document.getElementById("overlay-s10").style.display = "block";
-  document.getElementById("popupContainer-s10").style.display = "block";
-}
-function hide10() {
-  document.getElementById("overlay-s10").style.display = "none";
-  document.getElementById("popupContainer-s10").style.display = "none";
-}
-
-//step 11
-function showStep11() {
-  document.getElementById("overlay-s11").style.display = "block";
-  document.getElementById("popupContainer-s11").style.display = "block";
-}
-function hide11() {
-  document.getElementById("overlay-s11").style.display = "none";
-  document.getElementById("popupContainer-s11").style.display = "none";
-}
-
-//step 12
-function showStep12() {
-  document.getElementById("overlay-s12").style.display = "block";
-  document.getElementById("popupContainer-s12").style.display = "block";
-}
-function hide12() {
-  document.getElementById("overlay-s12").style.display = "none";
-  document.getElementById("popupContainer-s12").style.display = "none";
-}
-
-//step 13
-function showStep13() {
-  document.getElementById("overlay-s13").style.display = "block";
-  document.getElementById("popupContainer-s13").style.display = "block";
-}
-function hide13() {
-  document.getElementById("overlay-s13").style.display = "none";
-  document.getElementById("popupContainer-s13").style.display = "none";
-}
-
-//step 14
-function showStep14() {
-  document.getElementById("overlay-s14").style.display = "block";
-  document.getElementById("popupContainer-s14").style.display = "block";
-}
-function hide14() {
-  document.getElementById("overlay-s14").style.display = "none";
-  document.getElementById("popupContainer-s14").style.display = "none";
-}
-
-//step 15
-function showStep15(){
-  document.getElementById("overlay-s15").style.display = "block";
-  document.getElementById("popupContainer-s15").style.display = "block";
-}
-function hide15() {
-  document.getElementById("overlay-s15").style.display = "none";
-  document.getElementById("popupContainer-s15").style.display = "none";
-}
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("regionButton").addEventListener("click", function() {
+      displayRegions();
+  });
+});
 
 
 
+function displayImage(imageUrl) {
+  var displayedImage = document.getElementById("displayedImage");
+  displayedImage.src = imageUrl;
+}
 
-   
+function displayImage(event, imageUrl) {
+  event.preventDefault(); // Prevent the default action of anchor tag (page refresh)
+
+  var displayedImage = document.getElementById("displayedImage");
+  displayedImage.src = imageUrl;
+}
+/////////////////////////////////////////////////REgino end//////////////////////////////
+///////////////////////////news/////////////////////////
+
+ // Example news data (you can fetch this dynamically using APIs or a backend)
+ const newsData = [
+  { title: "Coastal Water Quality Buoy Data Network", date: "21/11/2022 - 3:30pm", link: "https://www.nccr.gov.in/nccrtems2/home.aspx" },
+  { title: "India Mangrove Conclave (IMC) 2024", date: "30/10/2024 - 10:15am", link: "https://www.cifor-icraf.org/event/mangrove-ecosystems-of-india-science-policy-and-practice-for-sustainable-management/" },
+  { title: "Digital Elevation Model Data Released", date: "2024-11-20", link: "#" },
+  { title: "Upcoming Coastal Management Workshop", date: "2024-12-15", link: "#" },
+  { title: "Digital Elevation Model Data Released", date: "2024-11-20", link: "#" },
+  { title: "Digital Elevation Model Data Released", date: "2024-11-20", link: "#" }
+];
+
+// Dynamically populate news section
+const newsList = document.getElementById("news-list");
+newsData.forEach(news => {
+  const newsItem = `
+      <li>
+          <div class="news-title">
+              <a href="${news.link}" target="_blank">${news.title}</a>
+          </div>
+          <div class="news-date">${news.date}</div>
+      </li>
+  `;
+  newsList.innerHTML += newsItem;
+});
+
+////////////////////////////News end/////////////////////////////////////////////////
+
+// govt logo link/////////////////////////////////////////////////////////////
+
+// Function to handle navigation
+function navigateTo(url) {
+  window.location.href = url;
+}
+
+// Mapping IDs to URLs
+const links = {
+  digitalIndia: "https://csc.gov.in/digitalIndia",
+  Mudra: "https://www.mudra.org.in/",
+  swatchBharat: "https://swachhbharatmission.gov.in/sbmcms/index.htm",
+  skillIndia: "https://www.skillindiadigital.gov.in/home",
+  g2O: "https://g20.mygov.in/",
+  myGov: "https://g20.mygov.in/",
+  aadhar: "https://uidai.gov.in/en/",
+  govtOfIndia: "https://www.india.gov.in/",
+  lokpal: "https://www.lokpal.gov.in/#:~:text=Acting%20Chairperson%2C%20Lokpal&text=The%20Act%20came%20into%20force,from%2028th%20May%2C2022.",
+  worldFoodIndia: "https://worldfoodindia.gov.in/",
+  IndianPost: "https://www.indiapost.gov.in/vas/Pages/IndiaPostHome.aspx",
+};
+
+// Attach event listeners to each image
+document.addEventListener("DOMContentLoaded", () => {
+  Object.keys(links).forEach(id => {
+      const element = document.getElementById(id);
+      if (element) {
+          element.addEventListener("click", () => navigateTo(links[id]));  // Mouse click
+          element.addEventListener("keydown", (event) => {  // Keyboard support
+              if (event.key === "Enter") {
+                  navigateTo(links[id]);
+              }
+          });
+          element.addEventListener("touchstart", () => navigateTo(links[id])); // Touch support
+      }
+  });
+});
+
+///////////////////////////////////////Img end/////////////////////////////////
+
+// JavaScript for Hamburger Menu
+document.getElementById("hamburger-btn").addEventListener("click", function() {
+  const navLinks = document.getElementById("navbar-links");
+  navLinks.classList.toggle("show");
+});
+
+   /////////////////////////////////////////////////////////
+   document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll("span[aria-label]").forEach(el => el.remove());
+});

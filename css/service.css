@@ -8,34 +8,33 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
- 
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 20px;
-        background-image: url('/image/bg1.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url('/image/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
       
 }
 .head{
     height: 30%;
       width: 50%;
-      /* background-color:rgb(235, 221, 250); */
       text-align: center;
   }
-.head h1{
-    font-family: 'Courier New', Courier, monospace;
-    color: #008080;
+.head h2{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000;
+    /* font-size: 26px; */
+    text-decoration: underline;
     text-align: center;
 }
 .head p{
-    font-style: italic;
+    font-style: normal;
     font-size: 1.2rem;
-    /* font-weight: bold; */
+    line-height: 1.5rem;
 }
 .middle{
-    /* height: 10vh; */
     height: auto;
     padding: 20px;
     width: 50%;
@@ -44,48 +43,46 @@ main{
     align-items: center;
     text-align: center;
     font-size: large;
-    /* background-color:lightpink; */
 }
 .middle a{
-    color: black;
+    color: rgb(9, 16, 78);
     text-decoration: none;
     font-weight: bold;
 }
 .middle a:hover{
-color: #03b1b1;
+color: #000000;
 }
 
 #all{
-    color: red;
+    color: rgba(90, 11, 11, 0.897);
 }
 .end{
     height: auto;
     width: 100%;
-    /* background-color:rgb(252, 252, 172); */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .box{
-    height: auto;
+    height: 100%;
     width: 50%;
     background-color: #fff;
     box-shadow: 2px 2px 2px black;
     display: flex;
     flex-wrap: wrap;
-    /* background-color: rgb(231, 147, 147); */
     justify-content:space-around;
     align-items: center;
 }
 .box_btn{
     height: 40px;
     width: 100px;
-    /* background-color: #8b6767; */
 }
 .box_btn button{
     height: 40px;
     width: 100px;
+    background-color: #000000;
+    color: #ffffff;
     border-radius: 30px;
 }
 .box_btn button:hover{
@@ -99,8 +96,8 @@ color: #03b1b1;
     overflow: hidden;
 }
 .box1 img {
-    /* height: 200px;width: 350px; */
-    width: 100%;height:30%;
+    width: 100%;
+    height:100%;
     display: block;
 }
 .layer {
@@ -110,7 +107,7 @@ color: #03b1b1;
     position: absolute;
     top: 0;
     left: 0;
-    transition: 0.5s; /* Increased transition time for smoother animation */
+    transition: 0.5s; 
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -120,7 +117,6 @@ color: #03b1b1;
 }
 .layer h3 {
     width: 100%;
-    /* /* font-weight: 500;  */
     color: aliceblue;
     font-size: 25px;
     position: absolute;
@@ -136,24 +132,32 @@ color: #03b1b1;
 }
 .layer:hover h3 {
     opacity: 1;
-    bottom: 50%; /* Move the text to the center */
-    transform: translateY(-30%); /* Adjust to center the text vertically */
+    bottom: 50%;
+    transform: translateY(-30%); 
 }
 .additional-info {
     margin: 10px;
     width:50%;
 }
 .additional-info p{
-    /* margin-top: -20px; */
-    font-style: italic;
+    top: 20px;
+    font-style: normal;
     text-align: center;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px black;
+    line-height: 1.5rem;
+}
+.additional-info img{
+    width: 100%;
+    height: 50%;
+    font-style: normal;
+    text-align: center;
+    background-color: #fff;
 }
 .additional-info h2{
     text-align: center;
     color: brown;
 }
-
-
 /* mobile view ==============================================================================================================================================================================*/
 @media only screen and (min-width: 200px)and (max-width: 450px) {
     .head{
@@ -168,13 +172,11 @@ color: #03b1b1;
         padding: 10px;
         width: 100%;
         font-size:small;
-        /* background-color:lightpink; */
     }
     .middle a{
         padding: 5px;
     }
     .box {
-        /* background-color: rgb(231, 147, 147); */
         height: auto;
         width: 70%;
         display: flex;
@@ -190,16 +192,13 @@ color: #03b1b1;
     .additional-info p{
         font-style: italic;
     }
-    
 }
-
 /* mobile view ==============================================================================================================================================================================*/
 @media only screen and (min-width: 400px)and (max-width: 600px) {
  
     .head {
         height: 30%;
         width: 95%;
-        /* background-color:rgb(235, 221, 250); */
         text-align: center;
     }
   .head p{
@@ -211,76 +210,63 @@ color: #03b1b1;
       padding: 20px;
       width: 100%;
       font-size:medium;
-      /* background-color:lightpink; */
   }
 .box {
     height: auto;
     width: 90%;
-      /* background-color: rgb(231, 147, 147); */
 }
   .additional-info {
       margin: 10px;
       width:90%;
   }
 }
-
 /* Tablet view  ========================================================================================================================================================================== */
 @media only screen and (min-width: 600px) and (max-width: 850px) {
 
     .head {
         height: 30%;
         width: 90%;
-        /* background-color:rgb(235, 221, 250); */
         text-align: center;
     }
   .head p{
       font-style: italic;
-      /* font-size: medium;  */
   }
   .middle{
       height: auto;
       padding: 20px;
       width: 100%;
       font-size:medium;
-      /* background-color:lightpink; */
   }
 
 .box {
     height: auto;
     width: 90%;
-      /* background-color: rgb(231, 147, 147); */
 }
   .additional-info {
       margin: 10px;
       width:90%;
   }
-
 }
-
 /* Laptop view  ========================================================================================================================================================================== */
 @media only screen and (min-width: 850px) and (max-width: 1350px) {
     .head {
         height: 30%;
         width: 70%;
-        /* background-color:rgb(235, 221, 250); */
         text-align: center;
     }
   .head p{
-      font-style: italic;
-      /* font-size: medium;  */
+      font-style: normal;
   }
   .middle{
       height: auto;
       padding: 20px;
       width: 100%;
       font-size:medium;
-      /* background-color:lightpink; */
   }
 
 .box {
     height: auto;
     width: 90%;
-      /* background-color: rgb(231, 147, 147); */
 }
   .additional-info {
       margin: 10px;
