@@ -42,7 +42,7 @@
                 },{
                   "layerName": "jetty",  "kmlPath": " ",  "dwgPath": " "
                 }, {
-                  "layerName": "artifically_protected_line",  "kmlPath": "../data/PROTECTED LINE/ARTIFICIALLY PROTECTED LINE/KML/PALGHAR/TALASARI/ZAI.kml ",  "dwgPath": "../data/PROTECTED LINES/ARTIFICIALLY PROTECTED LINE/DWG/PALGHAR/TALASARI/ZAI.dwg "
+                  "layerName": "artifically_protected_line",  "kmlPath": "../data/PROTECTED LINES/ARTIFICIALLY PROTECTED LINE/KML/PALGHAR/TALASARI/ZAI.kml",  "dwgPath": "../data/PROTECTED LINES/ARTIFICIALLY PROTECTED LINE/DWG/PALGHAR/TALASARI/ZAI.dwg"
                 }, {
                   "layerName": "naturally_protected_line", "kmlPath": " ",   "dwgPath": " "
                 }, {
